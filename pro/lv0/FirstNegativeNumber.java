@@ -10,6 +10,9 @@ public class FirstNegativeNumber {
             }
         }
         return answer;
+        /*
+        return IntStream.range(0, num_list.length).filter(i -> num_list[i] < 0).findFirst().orElse(-1);
+         */
     }
 
     public static void main(String[] args) {
