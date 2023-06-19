@@ -4,6 +4,7 @@ public class CreateString {
         for(int index : index_list){
             answer.append(my_string.charAt(index));
         }
+        // return Arrays.stream(index_list).mapToObj(operand -> String.valueOf(my_string.charAt(operand))).collect(Collectors.joining());
         return answer.toString();
     }
 
