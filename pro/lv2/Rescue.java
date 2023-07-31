@@ -1,9 +1,6 @@
 package lv2;
 
-import java.util.ArrayDeque;
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class Rescue {
