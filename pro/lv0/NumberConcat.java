@@ -1,6 +1,7 @@
+package lv0;
 import java.util.Arrays;
 
-package lv0; public class NumberConcat {
+public class NumberConcat {
     public static int solution(int[] num_list){
         StringBuilder even = new StringBuilder();
         StringBuilder odd = new StringBuilder();
