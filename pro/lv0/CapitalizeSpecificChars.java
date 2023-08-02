@@ -1,4 +1,6 @@
-public class CapitalizeSpecificChars {
+
+
+package lv0; public class CapitalizeSpecificChars {
     public static String solution(String my_string, String alp){
         return my_string.replaceAll(alp,alp.toUpperCase());
     }

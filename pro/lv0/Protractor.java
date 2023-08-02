@@ -1,4 +1,4 @@
-public class Protractor {
+package lv0; public class Protractor {
     public int solution(int angle){
         if(0<angle && angle<90){
             return 1;

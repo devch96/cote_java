@@ -1,4 +1,6 @@
-public class AntSwarm {
+
+
+package lv0; public class AntSwarm {
     public int solution(int hp){
         int answer = 0;
         answer += hp/5;

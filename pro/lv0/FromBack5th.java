@@ -1,8 +1,9 @@
+package lv0;
 import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class FromBack5th {
+ public class FromBack5th {
     public static int[] solution(int[] num_list){
         return Arrays.copyOfRange(Arrays.stream(num_list).sorted().toArray(), 0, 5);
     }

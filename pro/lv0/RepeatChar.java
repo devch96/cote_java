@@ -1,4 +1,4 @@
-public class RepeatChar {
+package lv0; public class RepeatChar {
     public String solution(String my_string, int n){
         String answer = "";
         String[] temp = my_string.split("");

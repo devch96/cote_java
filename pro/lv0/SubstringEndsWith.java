@@ -1,6 +1,7 @@
+package lv0;
 import java.util.stream.IntStream;
 
-public class SubstringEndsWith {
+ public class SubstringEndsWith {
     public static String solution(String myString, String pat){
         return myString.substring(0,IntStream.rangeClosed(0, myString.length())
                 .filter(i -> myString.substring(0, i).endsWith(pat))

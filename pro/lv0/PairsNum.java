@@ -1,4 +1,4 @@
-public class PairsNum {
+package lv0; public class PairsNum {
     public int solution(int n){
         int answer = 0;
         for(int i = 1 ; i < ((int) Math.sqrt(n))+1; i++){

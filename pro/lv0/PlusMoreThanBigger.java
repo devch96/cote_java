@@ -1,4 +1,4 @@
-public class PlusMoreThanBigger {
+package lv0; public class PlusMoreThanBigger {
     public static int solution(int a, int b){
         String s1 = new String(String.valueOf(a) + String.valueOf(b));
         String s2 = new String(String.valueOf(b) + String.valueOf(a));

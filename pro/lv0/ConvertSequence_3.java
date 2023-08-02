@@ -1,6 +1,8 @@
+package lv0;
+
 import java.util.Arrays;
 
-public class ConvertSequence_3 {
+ public class ConvertSequence_3 {
     public static int[] solution(int[] arr, int k){
         return Arrays.stream(arr).map(k%2 == 0 ? i -> i+k : i -> i*k).toArray();
     }

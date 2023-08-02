@@ -1,4 +1,4 @@
-public class IceAmericano {
+package lv0; public class IceAmericano {
     public int[] solution(int money) {
         int[] answer = new int[2];
         answer[0] = money / 5500;

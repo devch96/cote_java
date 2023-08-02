@@ -1,4 +1,4 @@
-public class FindCompositeNum {
+package lv0; public class FindCompositeNum {
     public int solution(int n){
         int primeNum = 0;
         for(int i = 1; i <= n ; i ++){

@@ -1,4 +1,6 @@
-public class ConvertToString {
+
+
+package lv0; public class ConvertToString {
     public String solution(int n){
         return Integer.toString(n);
     }

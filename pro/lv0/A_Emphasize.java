@@ -1,3 +1,5 @@
+package lv0;
+
 import java.util.Locale;
 
 public class A_Emphasize {

@@ -1,4 +1,4 @@
-public class MulString {
+package lv0; public class MulString {
     public static String solution(String my_string, int k){
         StringBuilder answer = new StringBuilder();
         for(int i = 0; i<k; i++){

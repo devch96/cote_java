@@ -1,4 +1,4 @@
-public class SeparateBySpace_1 {
+package lv0; public class SeparateBySpace_1 {
     public static String[] solution(String my_string){
         return my_string.split(" ");
     }

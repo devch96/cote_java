@@ -1,4 +1,4 @@
-public class ReplaceIndex {
+package lv0; public class ReplaceIndex {
     public String solution(String my_string, int num1, int num2){
         char idx1 = my_string.charAt(num1);
         char idx2 = my_string.charAt(num2);

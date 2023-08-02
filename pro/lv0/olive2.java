@@ -1,3 +1,4 @@
+package lv0;
 import java.util.*;
 
 public class olive2 {

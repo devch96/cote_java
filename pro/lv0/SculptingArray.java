@@ -1,3 +1,4 @@
+package lv0;
 import java.util.Arrays;
 public class SculptingArray {
     public int[] solution(int[] arr, int[] query) {

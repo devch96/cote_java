@@ -1,4 +1,6 @@
-public class CheckIfPrefix {
+
+
+package lv0; public class CheckIfPrefix {
     public static int solution(String my_string, String is_prefix){
         return my_string.startsWith(is_prefix) ? 1 : 0;
     }

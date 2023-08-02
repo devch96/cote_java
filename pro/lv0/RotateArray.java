@@ -1,4 +1,4 @@
-public class RotateArray {
+package lv0; public class RotateArray {
     public int[] solution(int[] numbers, String direction) {
         int[] answer = new int[numbers.length];
         for (int i = 0; i < answer.length; i++) {

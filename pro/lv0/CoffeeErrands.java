@@ -1,6 +1,8 @@
+package lv0;
+
 import java.util.stream.IntStream;
 
-public class CoffeeErrands {
+ public class CoffeeErrands {
     public static int solution(String[] order){
         return IntStream.range(0, order.length).map(i -> {
             if(order[i].contains("americano")){

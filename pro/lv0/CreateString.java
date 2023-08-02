@@ -1,4 +1,6 @@
-public class CreateString {
+
+
+package lv0; public class CreateString {
     public static String solution(String my_string, int[] index_list){
         StringBuilder answer = new StringBuilder();
         for(int index : index_list){

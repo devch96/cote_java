@@ -1,4 +1,4 @@
-public class Factorial {
+package lv0; public class Factorial {
     public int solution(int n){
         int answer = 1;
         int temp = 1;

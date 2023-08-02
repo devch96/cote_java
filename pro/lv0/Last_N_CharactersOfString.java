@@ -1,4 +1,4 @@
-public class Last_N_CharactersOfString {
+package lv0; public class Last_N_CharactersOfString {
 
     public String solution(String my_string, int n){
         return my_string.substring(my_string.length()-n);

@@ -1,4 +1,4 @@
-public class QRcode {
+package lv0; public class QRcode {
     public static String solution(int q, int r, String code){
         StringBuilder answer = new StringBuilder();
         for(int i = r; i < code.length(); i+=q){

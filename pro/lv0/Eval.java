@@ -1,4 +1,4 @@
-public class Eval {
+package lv0; public class Eval {
     public static int solution(String binomial){
         String[] strArr = binomial.split("\\s+");
         int a = Integer.parseInt(strArr[0]);

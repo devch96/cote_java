@@ -1,4 +1,4 @@
-public class FindString {
+package lv0; public class FindString {
     public static int solution(String myString, String pat){
         return myString.toLowerCase().contains(pat.toLowerCase()) ? 1 : 0;
     }

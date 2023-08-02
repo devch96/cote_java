@@ -1,3 +1,4 @@
+package lv0;
 import java.util.*;
 import java.util.stream.IntStream;
 

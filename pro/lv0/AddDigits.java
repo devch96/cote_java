@@ -1,4 +1,6 @@
-public class AddDigits {
+
+
+package lv0; public class AddDigits {
     public int solution(int n) {
         int answer = 0;
         String str = String.valueOf(n);

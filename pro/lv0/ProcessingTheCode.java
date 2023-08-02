@@ -1,4 +1,4 @@
-public class ProcessingTheCode {
+package lv0; public class ProcessingTheCode {
     public String solution(String code) {
         StringBuilder ret = new StringBuilder();
         int mode = 0;

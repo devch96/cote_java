@@ -1,4 +1,4 @@
-public class RockPaperScissors {
+package lv0; public class RockPaperScissors {
     public String solution(String rsp){
         String answer = "";
         for(char ch : rsp.toCharArray()){

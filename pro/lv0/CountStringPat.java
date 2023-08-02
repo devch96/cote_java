@@ -1,4 +1,6 @@
-public class CountStringPat {
+
+
+package lv0; public class CountStringPat {
     public static int solution(String myString, String pat){
         int answer = 0;
         for(int i = 0; i < myString.length(); i++){

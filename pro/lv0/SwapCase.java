@@ -1,4 +1,4 @@
-public class SwapCase {
+package lv0; public class SwapCase {
     public String solution(String my_string){
         String answer = "";
         for(char ch : my_string.toCharArray()){

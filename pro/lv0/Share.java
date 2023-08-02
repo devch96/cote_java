@@ -1,4 +1,4 @@
-public class Share {
+package lv0; public class Share {
     class Solution {
         public int solution(int num1, int num2) {
             int answer = 0;

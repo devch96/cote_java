@@ -1,4 +1,6 @@
-public class Array2DStream {
+
+
+package lv0; public class Array2DStream {
     public static int solution(int[][] board, int k){
         int answer = 0;
         for(int i = 0; i < board.length; i++){

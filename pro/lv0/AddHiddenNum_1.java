@@ -1,4 +1,5 @@
-public class AddHiddenNum_1 {
+
+package lv0; public class AddHiddenNum_1 {
     public int solution(String my_string){
         int answer = 0;
         for(char ch : my_string.toCharArray()){

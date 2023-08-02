@@ -1,4 +1,6 @@
-public class CompareTwoNum {
+
+
+package lv0; public class CompareTwoNum {
     public static int solution(int a, int b){
         String s1 = String.valueOf(a);
         String s2 = String.valueOf(b);

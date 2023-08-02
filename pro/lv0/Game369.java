@@ -1,4 +1,4 @@
-public class Game369 {
+package lv0; public class Game369 {
     public int solution(int order){
         int answer = 0;
         for(char ch : Integer.toString(order).toCharArray()){

@@ -1,4 +1,4 @@
-public class IntegerPart {
+package lv0; public class IntegerPart {
     static class Solution{
         public int solution(double flo){
             int answer = (int) flo;

@@ -1,4 +1,4 @@
-public class SuffixCheck {
+package lv0; public class SuffixCheck {
     public static int solution(String my_string, String is_suffix){
         return my_string.endsWith(is_suffix) ? 1 : 0;
     }

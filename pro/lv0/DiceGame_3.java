@@ -1,9 +1,10 @@
+package lv0;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.IntStream;
 
-public class DiceGame_3 {
+ public class DiceGame_3 {
     public int solution(int a, int b, int c, int d) {
         int[] dice = {a, b, c, d};
 

@@ -1,4 +1,4 @@
-public class DiceGame_1 {
+package lv0; public class DiceGame_1 {
     public static int solution(int a, int b){
         if((a*b) % 2 != 0){
             return a*a + b*b;

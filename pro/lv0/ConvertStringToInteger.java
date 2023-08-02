@@ -1,4 +1,6 @@
-public class ConvertStringToInteger {
+
+
+package lv0; public class ConvertStringToInteger {
     public static int solution(String n_str){
         return Integer.parseInt(n_str);
     }

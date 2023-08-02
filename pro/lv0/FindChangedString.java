@@ -1,4 +1,4 @@
-public class FindChangedString {
+package lv0; public class FindChangedString {
     public static int solution(String myString, String pat){
         StringBuilder sb = new StringBuilder();
         for(char c : myString.toCharArray()){

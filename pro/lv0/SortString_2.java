@@ -1,6 +1,7 @@
+package lv0;
 import java.util.Arrays;
 
-public class SortString_2 {
+ public class SortString_2 {
     public String solution(String my_string){
         String answer = "";
         for(char ch : my_string.toCharArray()){

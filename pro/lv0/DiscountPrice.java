@@ -1,4 +1,4 @@
-public class DiscountPrice {
+package lv0; public class DiscountPrice {
     public int solution(int price) {
         if(100000<=price && price<300000){
             return (int) (price*0.95);

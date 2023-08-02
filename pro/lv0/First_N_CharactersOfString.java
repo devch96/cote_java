@@ -1,4 +1,4 @@
-public class First_N_CharactersOfString {
+package lv0; public class First_N_CharactersOfString {
     static class Solution {
         public String solution(String my_string, int n) {
             return my_string.substring(0,n);

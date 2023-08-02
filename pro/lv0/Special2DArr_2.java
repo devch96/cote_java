@@ -1,6 +1,7 @@
+package lv0;
 import java.util.stream.IntStream;
 
-public class Special2DArr_2 {
+ public class Special2DArr_2 {
     public static int solution(int[][] arr){
         for(int i = 0; i < arr.length; i++){
             for(int j = 0; j < arr[i].length; j++){

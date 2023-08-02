@@ -1,4 +1,4 @@
-public class StringReverses {
+package lv0; public class StringReverses {
     public String solution(String my_string, int[][] queries){
         StringBuilder sb = new StringBuilder(my_string);
         for(int[] query : queries){

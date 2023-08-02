@@ -1,4 +1,4 @@
-public class ManipulateNum_2 {
+package lv0; public class ManipulateNum_2 {
     public static String solution(int[] numLog){
         StringBuilder answer = new StringBuilder();
         for(int i = 1; i < numLog.length; i++){

@@ -1,4 +1,4 @@
-public class ReplaceString {
+package lv0; public class ReplaceString {
     public String solution(String my_string, String letter){
         my_string = my_string.replace(letter, "");
         return my_string;

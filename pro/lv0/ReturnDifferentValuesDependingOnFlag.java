@@ -1,4 +1,4 @@
-public class ReturnDifferentValuesDependingOnFlag {
+package lv0; public class ReturnDifferentValuesDependingOnFlag {
     public int solution(int a, int b, boolean flag){
         return flag ? a+b : a-b;
     }

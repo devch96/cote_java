@@ -1,4 +1,4 @@
-public class RemoveDuplicateCharacters {
+package lv0; public class RemoveDuplicateCharacters {
     public String solution(String my_string) {
         String answer = "";
         for(char ch : my_string.toCharArray()){

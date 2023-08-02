@@ -1,7 +1,8 @@
+package lv0;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class Special2DArr_1 {
+ public class Special2DArr_1 {
     public static int[][] solution(int n){
         int[][] answer = new int[n][n];
         for(int i = 0; i < n; i++){

@@ -1,6 +1,7 @@
+package lv0;
 import java.util.Arrays;
 
-public class MakeBOutofA {
+ public class MakeBOutofA {
     public int solution(String before, String after){
         char[] charsB = before.toCharArray();
         char[] charsA = after.toCharArray();

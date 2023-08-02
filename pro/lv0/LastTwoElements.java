@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class LastTwoElements {
+package lv0; public class LastTwoElements {
     public static int[] solution(int[] num_list){
         int[] answer = new int[num_list.length+1];
         System.arraycopy(num_list,0,answer,0,num_list.length);
